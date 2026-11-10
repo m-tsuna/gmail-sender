@@ -28,6 +28,12 @@ Gmail API を使って、あらかじめ決めておいた宛先に、自分の 
 送信しました。（メッセージID: 18f...）
 ```
 
+## 使う技術
+
+- Python 3（python-dotenv）
+- Gmail API（メールを送る）
+- Google Cloud（OAuth 2.0 でログイン。google-api-python-client・google-auth-oauthlib）
+
 ## 事前準備
 
 ### 1. ライブラリのインストール
